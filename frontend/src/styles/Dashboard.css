@@ -1,0 +1,249 @@
+/* Dashboard Layout */
+.dashboard-page {
+    min-height: calc(100vh - 70px);
+    padding: 40px 20px;
+    background-color: var(--bg-color, #ffffff);
+    color: var(--text-color, #222);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-family: "Poppins", sans-serif;
+}
+
+.dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* 30/70 Grid Layout */
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+@media (max-width: 900px) {
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Header */
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 40px;
+    border-bottom: 2px solid var(--border-color, #eee);
+    padding-bottom: 20px;
+}
+
+.dashboard-title {
+    font-size: 36px;
+    font-family: "MuseoModerno", sans-serif;
+    margin-bottom: 8px;
+}
+
+.dashboard-subtitle {
+    color: var(--text-muted, #666);
+    font-size: 16px;
+}
+
+.dashboard-affirmation {
+    font-family: "MuseoModerno", sans-serif;
+    font-size: 20px;
+    color: var(--theme-secondary);
+    text-align: center;
+    margin-bottom: 40px;
+    font-style: italic;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.dashboard-actions {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.theme-toggle {
+    background: none;
+    border: 1px solid var(--border-color, #aaa);
+    padding: 10px 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    transition: 0.2s;
+    color: var(--text-color, #222);
+}
+
+.theme-toggle:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.btn-write {
+    background-color: var(--theme-primary);
+    color: #222;
+    border: 2px solid #222;
+    border-radius: 30px;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    transition: 0.3s;
+}
+
+.btn-write:hover {
+    background-color: var(--theme-secondary);
+    color: #fff;
+    border-color: var(--theme-secondary);
+}
+
+/* Analytics */
+.dashboard-analytics {
+    margin-bottom: 50px;
+}
+
+.analytics-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.analytics-header h2 {
+    font-size: 28px;
+    font-family: "MuseoModerno", sans-serif;
+    margin: 0;
+}
+
+.analytics-tabs {
+    display: flex;
+    gap: 10px;
+}
+
+.analytics-tabs button {
+    background: transparent;
+    border: 1px solid var(--border-color, #ccc);
+    color: var(--text-color, #222);
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    transition: 0.2s;
+}
+
+.analytics-tabs button:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+body.dark-mode .analytics-tabs button:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.analytics-tabs button.active {
+    background: var(--text-color, #222);
+    color: var(--bg-color, #fff);
+    border-color: var(--text-color, #222);
+}
+
+.analytics-content {
+    background: var(--card-bg, #fff);
+    border: 2px solid var(--border-color, #eee);
+    border-radius: 20px;
+    padding: 30px;
+    min-height: 120px;
+}
+
+.no-moods {
+    text-align: center;
+    color: var(--text-muted, #666);
+    font-style: italic;
+}
+
+.mood-bar-graph {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.mood-bar-row {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.mood-label {
+    font-size: 14px;
+    color: var(--text-color, #222);
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mood-number {
+    font-weight: 600;
+    color: var(--text-muted, #666);
+}
+
+.mood-bar-track {
+    width: 100%;
+    height: 8px;
+    background-color: var(--border-color, #eee);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.mood-bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.5s ease-out;
+}
+
+/* Entries Section */
+.entries-section h2 {
+    font-size: 28px;
+    font-family: "MuseoModerno", sans-serif;
+    margin-bottom: 24px;
+}
+
+.no-entries {
+    text-align: center;
+    padding: 60px 20px;
+    background: var(--card-bg, #fff);
+    border: 2px dashed var(--border-color, #ccc);
+    border-radius: 20px;
+    color: var(--text-muted, #666);
+    font-size: 18px;
+}
+
+.entries-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Base Dark Mode Additions needed locally or globally */
+body.dark-mode {
+    --bg-color: #1a1a1a;
+    --text-color: #fdfbf7;
+    --text-muted: #aaa;
+    --border-color: #444;
+    --card-bg: #222;
+}
+
+body.dark-mode .btn-write {
+    border-color: var(--theme-primary);
+}

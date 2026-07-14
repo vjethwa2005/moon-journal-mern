@@ -1,0 +1,89 @@
+.footer {
+  width: 100%;
+  padding: 48px 64px 24px;
+  background: linear-gradient(to right, #1a1a1a, #151515, #1a1a1a);
+  color: #ffffff;
+  box-sizing: border-box;
+}
+
+/* 3 PERFECT EQUAL COLUMNS */
+.footer-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  border-bottom: 1px solid #2a2a2a;
+  padding-bottom: 32px;
+}
+
+/* LEFT */
+.footer-brand {
+  max-width: 320px;
+}
+
+.footer-brand h2 {
+  font-size: 28px;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+
+.footer-brand p {
+  font-size: 14px;
+  color: #bdbdbd;
+  line-height: 1.6;
+}
+
+/* CENTER (links) */
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.footer-links h4 {
+  margin-bottom: 12px;
+  font-size: 16px;
+  text-align: left;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #cfcfcf;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.footer-links li:hover {
+  color: #ffd64e;
+}
+
+/* RIGHT — ACTUAL CENTERED QUOTE */
+.footer-quote {
+  text-align: center;
+  font-size: 14px;
+  font-style: italic;
+  color: #e0e0e0;
+  justify-self: center;
+  max-width: 240px;
+}
+
+/* BOTTOM */
+.footer-bottom {
+  text-align: center;
+  padding-top: 16px;
+  font-size: 13px;
+  color: #9e9e9e;
+}
+
+footer-right{
+  text-align: right;
+}
+
+footer-left{
+  text-align: left;
+}

@@ -1,0 +1,57 @@
+.why-container {
+  min-height: 100vh;
+  max-width: 90vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 100px;
+  gap:20px;
+}
+
+/* The vertical line */
+.line-decor {
+  position: relative;
+  width: 2px;
+  background-color: #3b2b2b;
+  height: 180px;
+}
+
+/* Top dot */
+.line-decor::before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: -4px;
+  width: 10px;
+  height: 10px;
+  background-color: #3b2b2b;
+  border-radius: 50%;
+}
+
+/* Bottom dot */
+.line-decor::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: -4px;
+  width: 10px;
+  height: 10px;
+  background-color: #3b2b2b;
+  border-radius: 50%;
+}
+
+.why-text{
+  font-family: Montserrat;
+  position: relative;
+  left:-10%;
+  width: 40%;
+}
+
+.why-text h2{
+  font-size: 36px;
+}
+
+.why-text p{
+  font-size: 20px;
+  font-family: montserrat;
+}

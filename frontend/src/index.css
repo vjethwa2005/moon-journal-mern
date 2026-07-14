@@ -1,0 +1,23 @@
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --theme-primary: #FFD64E;
+    --theme-secondary: #FF5393;
+}
+
+body.theme-yellow {
+    --theme-primary: #FFD64E;
+    --theme-secondary: #FF5393;
+}
+
+body.theme-blue {
+    --theme-primary: #1C39BB;
+    --theme-secondary: #C0C0C0;
+}
+
+body.theme-green {
+    --theme-primary: #7C9885;
+    --theme-secondary: #D1BFAe;
+}

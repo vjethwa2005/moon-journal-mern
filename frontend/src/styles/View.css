@@ -1,0 +1,80 @@
+.view-container {
+  max-width: 90vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 100px;
+}
+
+.view-heading {
+  font-family: Montserrat;
+  font-size: 40px;
+  width: 100%;
+  border: 2px solid #3d2727;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.preview {
+  background-color: var(--card-bg, #fff);
+  height: 800px;
+  width: 100%;
+  max-width: 1100px;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border: 1px solid var(--border-color, #eee);
+  position: relative;
+  pointer-events: none;
+  /* Make it act like an unclickable screenshot */
+  margin-top: 40px;
+}
+
+/* Hide the auth-dependent Navbar when in the preview to look cleaner */
+.preview .navbar {
+  display: none;
+}
+
+.preview-mac-header {
+  height: 30px;
+  background-color: #f6f6f6;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  gap: 8px;
+}
+
+body.dark-mode .preview-mac-header {
+  background-color: #333;
+  border-bottom-color: #222;
+}
+
+.mac-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.mac-dot.red {
+  background: #ff5f56;
+}
+
+.mac-dot.yellow {
+  background: #ffbd2e;
+}
+
+.mac-dot.green {
+  background: #27c93f;
+}
+
+.preview-content {
+  height: calc(100% - 30px);
+  overflow: hidden;
+  /* Scale slightly to show more content in the preview window */
+  transform: scale(0.95);
+  transform-origin: top center;
+  padding-top: 20px;
+}

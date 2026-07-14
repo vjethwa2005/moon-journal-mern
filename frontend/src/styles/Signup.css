@@ -1,0 +1,193 @@
+/* Layout */
+.signup-page {
+  display: flex;
+  height: 100vh;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background: #cfcccc;
+}
+
+/* Left Side - Illustration Placeholder */
+.signup-left {
+  flex: 1;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.signup-illustration-placeholder {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-image {
+  width: 100%;
+  max-width: 450px;
+  object-fit: contain;
+}
+
+/* Right Side - Form */
+.signup-right {
+  flex: 1;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.signup-card {
+  width: 100%;
+  max-width: 440px;
+  color: #222;
+}
+
+.signup-card h2 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+  font-family: "Alexandria", sans-serif;
+}
+
+.signup-card p {
+  color: #555;
+  font-size: 15px;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.signup-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input-field label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #222;
+}
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-wrapper input {
+  width: 100%;
+  padding: 16px 45px 16px 20px;
+  border-radius: 40px;
+  border: 1.5px solid #222;
+  background: transparent;
+  font-size: 15px;
+  color: #222;
+  font-family: inherit;
+  outline: none;
+  transition: background 0.3s;
+}
+
+.input-wrapper input::placeholder {
+  color: #888;
+}
+
+.input-wrapper input:focus {
+  background: #fff;
+}
+
+.input-wrapper .icon {
+  position: absolute;
+  right: 20px;
+  opacity: 0.5;
+  font-size: 14px;
+}
+
+/* Yellow CTA Button */
+.signup-btn {
+  background-color: #FFD64E;
+  /* Matched to homepage CTA */
+  border: 2px solid #222;
+  border-radius: 40px;
+  padding: 18px;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  box-shadow: 4px 4px 0 #222;
+  transition: all 0.2s ease;
+  margin-top: 10px;
+  color: #222;
+}
+
+.signup-btn:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 #222;
+  background-color: #e6c146;
+}
+
+/* Links & Dividers */
+.login-link {
+  margin-top: 30px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #555;
+}
+
+.login-link a {
+  color: #89671d;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 1px solid #89671d;
+}
+
+.or-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.or-divider::before,
+.or-divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #aaa;
+}
+
+.or-divider span {
+  padding: 0 10px;
+  color: #555;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .signup-page {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .signup-left {
+    min-height: 300px;
+  }
+}
