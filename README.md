@@ -2,7 +2,7 @@
 
 > A full-stack MERN journal application that helps users track their moods, write personal journal entries, and visualize emotional trends through an interactive dashboard.
 
-![React](https://img.shields.io/badge/React-19-blue?logo=react)
+![React](https://img.shields.io/badge/React-purple?logo=react)
 ![Node.js](https://img.shields.io/badge/Node.js-Express-green?logo=node.js)
 ![MongoDB](https://img.shields.io/badge/MongoDB-Database-darkgreen?logo=mongodb)
 ![JWT](https://img.shields.io/badge/Auth-JWT-orange)
