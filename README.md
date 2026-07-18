@@ -63,7 +63,7 @@ The project demonstrates real-world full-stack development concepts including JW
 
 ## Login
 
-![Login](screenshots/login.png)
+![Login](<img width="1897" height="932" alt="Image" src="https://github.com/user-attachments/assets/6bcc66b4-2b5f-4b2b-a348-afad6383050d" />)
 
 ---
 
