@@ -15,6 +15,7 @@
 Moon Journal is a secure journaling platform built using the **MERN Stack**. It allows users to create personal journal entries, monitor their moods over different time periods, and manage their profile through a clean and responsive interface.
 
 The project demonstrates real-world full-stack development concepts including JWT authentication, protected routes, React Context API, CRUD operations, state management, and MongoDB integration.
+> 🚧 This project is actively being improved. Planned features include AI-powered journal insights, search, PDF export, and cloud image uploads.
 
 ---
 
