@@ -57,37 +57,37 @@ The project demonstrates real-world full-stack development concepts including JW
 
 ## Landing Page
 
-![Landing]()
+<img width="1897" height="932" alt="Image" src="https://github.com/user-attachments/assets/6bcc66b4-2b5f-4b2b-a348-afad6383050d" />
 
 ---
 
 ## Login
 
-![Login](<img width="1897" height="932" alt="Image" src="https://github.com/user-attachments/assets/6bcc66b4-2b5f-4b2b-a348-afad6383050d" />)
+<img width="1898" height="928" alt="Image" src="https://github.com/user-attachments/assets/3df1db55-46d4-4766-9e4b-0fa78385d724" />
 
 ---
 
 ## Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+<img width="1902" height="923" alt="Image" src="https://github.com/user-attachments/assets/81f04b90-87c0-419c-b414-3daff87681bb" />
 
 ---
 
 ## Mood Analytics
 
-![Analytics](screenshots/analytics.png)
+<img width="447" height="467" alt="Image" src="https://github.com/user-attachments/assets/69271741-652b-46ef-871b-1ef8410e1597" />
 
 ---
 
 ## Write Entry
 
-![Write](screenshots/write-entry.png)
+<img width="1900" height="922" alt="Image" src="https://github.com/user-attachments/assets/d5d974e8-32e0-453f-aba7-ad7ffe564052" />
 
 ---
 
 ## Profile & Settings
 
-![Settings]()
+<img width="565" height="712" alt="Image" src="https://github.com/user-attachments/assets/8fd3a67a-8b01-4787-81a6-82ee7065561b" />
 
 ---
 
