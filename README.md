@@ -17,6 +17,10 @@ Moon Journal is a secure journaling platform built using the **MERN Stack**. It 
 The project demonstrates real-world full-stack development concepts including JWT authentication, protected routes, React Context API, CRUD operations, state management, and MongoDB integration.
 > 🚧 This project is actively being improved. Planned features include AI-powered journal insights, search, PDF export, and cloud image uploads.
 
+## 🎯 Why I Built This
+
+Moon Journal was built to strengthen my understanding of full-stack web development using the MERN stack. The project focuses on authentication, protected routing, CRUD operations, global state management using React Context, and visualizing user mood data through an interactive dashboard.
+
 ---
 
 ## ✨ Features
@@ -130,23 +134,12 @@ The project demonstrates real-world full-stack development concepts including JW
 ```
 Moon Journal
 
-Frontend (React)
-│
-├── Authentication
-├── Dashboard
-├── Calendar
-├── Mood Analytics
-├── Write Entry
-└── Settings
-
+React (Vite)
         │
         ▼
-
-Express API
-
+Express REST API
         │
         ▼
-
 MongoDB
 ```
 
@@ -222,7 +215,7 @@ Dashboard Updates
 ## Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/moon-journal.git
+git clone https://github.com/vjethwa2005/moon-journal-mern.git
 
 cd moon-journal
 ```
@@ -233,10 +226,8 @@ cd moon-journal
 
 ```bash
 cd backend
-
 npm install
-
-npm run dev
+node server.js
 ```
 
 ---
@@ -245,9 +236,7 @@ npm run dev
 
 ```bash
 cd frontend
-
 npm install
-
 npm run dev
 ```
 
