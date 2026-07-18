@@ -216,7 +216,6 @@ Dashboard Updates
 
 ```bash
 git clone https://github.com/vjethwa2005/moon-journal-mern.git
-
 cd moon-journal
 ```
 
