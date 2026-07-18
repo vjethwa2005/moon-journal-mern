@@ -52,6 +52,8 @@ The project demonstrates real-world full-stack development concepts including JW
 - Edit User Profile
 
 ---
+# 📹 Videos
+<img width="400" height="193" alt="landingpage" src="https://github.com/user-attachments/assets/e926e785-41cc-44fe-8d04-ded5a931aae7" />
 
 # 📸 Screenshots
 
