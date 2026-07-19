@@ -93,7 +93,7 @@ Moon Journal was built to strengthen my understanding of full-stack web developm
 
 ## Profile & Settings
 
-<img width="565" height="712" alt="Image" src="https://github.com/user-attachments/assets/8fd3a67a-8b01-4787-81a6-82ee7065561b" />
+<img width="412" height="617" alt="Image" src="https://github.com/user-attachments/assets/cfffcf0b-17ea-42f4-b173-d462fa6c8067" />
 
 ---
 
