@@ -1,4 +1,5 @@
-import { createContext, useState, useEffect, useContext } from "react";
+import { createContext, useContext, useEffect, useState } from "react";
+import { apiFetch } from "../api";
 import { AuthContext } from "./AuthContext";
 
 export const JournalContext = createContext(null);
@@ -13,7 +14,7 @@ export const JournalProvider = ({ children }) => {
             const token = localStorage.getItem("moon_journal_token");
             if (!token) return setEntries([]);
 
-            const res = await fetch("/api/entries", {
+            const res = await apiFetch("/api/entries", {
                 headers: { "Authorization": `Bearer ${token}` }
             });
             const data = await res.json();
@@ -37,7 +38,7 @@ export const JournalProvider = ({ children }) => {
     const addEntry = async (entry) => {
         try {
             const token = localStorage.getItem("moon_journal_token");
-            const res = await fetch("/api/entries", {
+            const res = await apiFetch("/${API_URL}/api/entries", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",

@@ -1,8 +1,9 @@
-import { useContext, useState, useRef } from "react";
+import { useContext, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { ThemeContext } from "../context/ThemeContext";
-import { SettingsContext } from "../context/SettingsContext";
+import { apiFetch } from "../api";
 import { AuthContext } from "../context/AuthContext";
+import { SettingsContext } from "../context/SettingsContext";
+import { ThemeContext } from "../context/ThemeContext";
 import "../styles/NavbarPrivate.css";
 
 const NavbarPrivate = () => {
@@ -43,7 +44,7 @@ const NavbarPrivate = () => {
         e.preventDefault();
         try {
             const token = localStorage.getItem("moon_journal_token");
-            const res = await fetch("/api/auth/profile", {
+            const res = await apiFetch("/api/auth/profile", {
                 method: "PUT",
                 headers: {
                     "Content-Type": "application/json",
