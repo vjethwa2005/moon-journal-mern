@@ -75,25 +75,25 @@ Moon Journal was built to strengthen my understanding of full-stack web developm
 
 ## Dashboard
 
-<img width="1902" height="923" alt="Image" src="https://github.com/user-attachments/assets/81f04b90-87c0-419c-b414-3daff87681bb" />
+<img width="1900" height="927" alt="Image" src="https://github.com/user-attachments/assets/bce43ed2-ea79-4670-8a17-629f86522803" />
 
 ---
 
 ## Mood Analytics
 
-<img width="447" height="467" alt="Image" src="https://github.com/user-attachments/assets/69271741-652b-46ef-871b-1ef8410e1597" />
+<img width="462" height="447" alt="Image" src="https://github.com/user-attachments/assets/f811d87b-0b9f-4c19-baa9-6e4036319031" />
 
 ---
 
 ## Write Entry
 
-<img width="1900" height="922" alt="Image" src="https://github.com/user-attachments/assets/d5d974e8-32e0-453f-aba7-ad7ffe564052" />
+<img width="1898" height="927" alt="Image" src="https://github.com/user-attachments/assets/6e9cc31b-4467-47e6-a9e0-a8793b605163" />
 
 ---
 
 ## Profile & Settings
 
-<img width="565" height="712" alt="Image" src="https://github.com/user-attachments/assets/8fd3a67a-8b01-4787-81a6-82ee7065561b" />
+<img width="412" height="617" alt="Image" src="https://github.com/user-attachments/assets/cfffcf0b-17ea-42f4-b173-d462fa6c8067" />
 
 ---
 
