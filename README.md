@@ -1,16 +1,282 @@
-# React + Vite
+# 🌙 Moon Journal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A full-stack MERN journal application that helps users track their moods, write personal journal entries, and visualize emotional trends through an interactive dashboard.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-purple?logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-Express-green?logo=node.js)
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-darkgreen?logo=mongodb)
+![JWT](https://img.shields.io/badge/Auth-JWT-orange)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📖 Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Moon Journal is a secure journaling platform built using the **MERN Stack**. It allows users to create personal journal entries, monitor their moods over different time periods, and manage their profile through a clean and responsive interface.
 
-## Expanding the ESLint configuration
+The project demonstrates real-world full-stack development concepts including JWT authentication, protected routes, React Context API, CRUD operations, state management, and MongoDB integration.
+> 🚧 This project is actively being improved. Planned features include AI-powered journal insights, search, PDF export, and cloud image uploads.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎯 Why I Built This
+
+Moon Journal was built to strengthen my understanding of full-stack web development using the MERN stack. The project focuses on authentication, protected routing, CRUD operations, global state management using React Context, and visualizing user mood data through an interactive dashboard.
+
+---
+
+## ✨ Features
+
+### 🔐 Authentication
+
+- User Registration
+- Secure Login
+- JWT Authentication
+- Protected Routes
+- Persistent Login using Local Storage
+
+### 📝 Journal
+
+- Create Journal Entries
+- Select Mood with Emoji
+- Date-based Entries
+- View Previous Journals
+- Calendar Integration
+
+### 📊 Analytics
+
+- Weekly Mood Analytics
+- Monthly Mood Analytics
+- Yearly Mood Analytics
+- Five-Year Mood Overview
+
+### 🎨 Personalization
+
+- Dark / Light Mode
+- Multiple Color Themes
+- Writing Prompt Toggle
+- Daily Affirmation Toggle
+- Edit User Profile
+
+---
+# 📹 Preview
+<img width="400" height="193" alt="landingpage" src="https://github.com/user-attachments/assets/e926e785-41cc-44fe-8d04-ded5a931aae7" />
+
+# 📸 Screenshots
+
+## Landing Page
+
+<img width="1897" height="932" alt="Image" src="https://github.com/user-attachments/assets/6bcc66b4-2b5f-4b2b-a348-afad6383050d" />
+
+---
+
+## Login
+
+<img width="1898" height="928" alt="Image" src="https://github.com/user-attachments/assets/3df1db55-46d4-4766-9e4b-0fa78385d724" />
+
+---
+
+## Dashboard
+
+<img width="1902" height="923" alt="Image" src="https://github.com/user-attachments/assets/81f04b90-87c0-419c-b414-3daff87681bb" />
+
+---
+
+## Mood Analytics
+
+<img width="447" height="467" alt="Image" src="https://github.com/user-attachments/assets/69271741-652b-46ef-871b-1ef8410e1597" />
+
+---
+
+## Write Entry
+
+<img width="1900" height="922" alt="Image" src="https://github.com/user-attachments/assets/d5d974e8-32e0-453f-aba7-ad7ffe564052" />
+
+---
+
+## Profile & Settings
+
+<img width="565" height="712" alt="Image" src="https://github.com/user-attachments/assets/8fd3a67a-8b01-4787-81a6-82ee7065561b" />
+
+---
+
+# 🛠 Tech Stack
+
+### Frontend
+
+- React
+- Vite
+- React Router DOM
+- Context API
+- CSS
+
+### Backend
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+
+### Authentication
+
+- JWT
+- bcrypt
+
+### Tools
+
+- Git
+- GitHub
+- VS Code
+- Postman
+
+---
+
+# 🏗 Project Architecture
+
+```
+Moon Journal
+
+React (Vite)
+        │
+        ▼
+Express REST API
+        │
+        ▼
+MongoDB
+```
+
+---
+
+# 📂 Folder Structure
+
+```
+Moon-Journal
+│
+├── backend
+│   ├── models
+│   ├── routes
+│   ├── server.js
+│   └── ...
+│
+├── frontend
+│   ├── src
+│   │   ├── components
+│   │   ├── context
+│   │   ├── pages
+│   │   ├── routes
+│   │   └── ...
+│   └── ...
+│
+└── README.md
+```
+
+---
+
+# 🔄 Application Flow
+
+```
+User
+
+↓
+
+Register / Login
+
+↓
+
+JWT Generated
+
+↓
+
+Dashboard
+
+↓
+
+Fetch Journal Entries
+
+↓
+
+Mood Analytics
+
+↓
+
+Write Journal
+
+↓
+
+Save to MongoDB
+
+↓
+
+Dashboard Updates
+```
+
+---
+
+# 🚀 Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/vjethwa2005/moon-journal-mern.git
+cd moon-journal
+```
+
+---
+
+## Backend
+
+```bash
+cd backend
+npm install
+node server.js
+```
+
+---
+
+## Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+---
+
+# ⚙️ Environment Variables
+
+Create a `.env` file inside the backend folder.
+
+```env
+MONGO_URI=your_mongodb_connection_string
+
+JWT_SECRET=your_secret_key
+```
+
+---
+
+# 💡 Key Concepts Demonstrated
+
+- MERN Stack Development
+- REST API Design
+- JWT Authentication
+- Protected Routes
+- CRUD Operations
+- React Context API
+- State Management
+- Component Reusability
+- Responsive UI
+- Calendar Integration
+- Mood Analytics
+
+---
+
+# 🔮 Future Improvements
+
+- 🤖 AI-powered journal insights
+- 🔍 Search journal entries
+- 🏷 Tags & Categories
+- 📤 Export journals to PDF
+- 🎤 Voice-to-Journal
+- 📈 Advanced mood visualizations
+- ☁ Cloud image uploads
+- 📱 Progressive Web App (PWA)
+
+---
