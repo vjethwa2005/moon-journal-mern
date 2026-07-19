@@ -87,7 +87,7 @@ Moon Journal was built to strengthen my understanding of full-stack web developm
 
 ## Write Entry
 
-<img width="1900" height="922" alt="Image" src="https://github.com/user-attachments/assets/d5d974e8-32e0-453f-aba7-ad7ffe564052" />
+<img width="1898" height="927" alt="Image" src="https://github.com/user-attachments/assets/6e9cc31b-4467-47e6-a9e0-a8793b605163" />
 
 ---
 
