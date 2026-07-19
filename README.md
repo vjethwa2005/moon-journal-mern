@@ -56,6 +56,7 @@ Moon Journal was built to strengthen my understanding of full-stack web developm
 - Edit User Profile
 
 ---
+# LIVE DEMO: 🔗 [Open Moon Journal](https://moon-journal-mern.vercel.app)
 # 📹 Preview
 <img width="400" height="193" alt="landingpage" src="https://github.com/user-attachments/assets/e926e785-41cc-44fe-8d04-ded5a931aae7" />
 
