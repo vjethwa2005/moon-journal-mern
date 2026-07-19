@@ -3,7 +3,7 @@
     background-color: var(--bg-color, #fdfbf7);
     color: var(--text-color, #222);
     padding: 40px 20px;
-    font-family: "Poppins", sans-serif;
+    font-family: "montserrat", sans-serif;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .write-header h2 {
-    font-family: "MuseoModerno", sans-serif;
+    font-family: "montserrat", sans-serif;
     font-size: 32px;
     margin-bottom: 8px;
 }

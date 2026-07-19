@@ -2,10 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import AuthProvider from "./context/AuthProvider.jsx";
 import { JournalProvider } from "./context/JournalContext.jsx";
-import { ThemeProvider } from "./context/ThemeContext.jsx";
 import { SettingsProvider } from "./context/SettingsContext.jsx";
-import AppRoutes from "./routes/AppRoutes.jsx";
+import { ThemeProvider } from "./context/ThemeContext.jsx";
 import "./index.css";
+import AppRoutes from "./routes/AppRoutes.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
