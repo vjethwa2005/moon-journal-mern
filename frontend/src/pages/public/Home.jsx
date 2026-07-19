@@ -11,7 +11,7 @@ function Home() {
       <HeroSection />
       <div id="features"><Features /></div>
       <div id="about"><View /></div>
-      <div id="pricing"><Why /></div>
+      <div id="why"><Why /></div>
       <Footer />
     </>
   );
